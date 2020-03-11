@@ -1,12 +1,15 @@
 import React from 'react';
 import {createUseStyles} from 'react-jss'
 import { Link } from 'react-router-dom';
+// @ts-ignore
+import { useLitteraMethods} from 'react-littera';
 
 const useStyles = createUseStyles({
     root: {
         paddingTop: "10vh",
         paddingLeft: "5vw",
-        paddingRight: "5vw"
+        paddingRight: "5vw",
+        maxWidth: "1280px"
     },
     title: {
         color: "#501ee6"
@@ -15,9 +18,12 @@ const useStyles = createUseStyles({
 
 const Home = () => {
     const classes = useStyles();
+    const methods = useLitteraMethods();
 
     return <div className={classes.root}>
         <h1 className={classes.title}>Eling Notes</h1>
+        <div onClick={() => methods.setLocale("pl_PL")}>Polski</div>
+        <div onClick={() => methods.setLocale("en_US")}>English</div>
         <br/>
         <br/>
         <br/>

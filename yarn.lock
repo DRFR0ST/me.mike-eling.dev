@@ -8750,10 +8750,10 @@ react-jss@^10.0.4:
     theming "3.2.0"
     tiny-warning "^1.0.2"
 
-react-littera@^2.0.0-alpha.4:
-  version "2.0.0-alpha.4"
-  resolved "https://registry.yarnpkg.com/react-littera/-/react-littera-2.0.0-alpha.4.tgz#505dcb843554687be707139e35967db4b951c85d"
-  integrity sha512-JUCtsezum9te7Ew8OMkCy0XZ2a1/VVZ6kufa2gw54g9EPRCI5bkRWgnIygRBTeqDdVNwwN+vX1x5uxomfx7sbA==
+react-littera@2.0.0-alpha.1:
+  version "2.0.0-alpha.1"
+  resolved "https://registry.yarnpkg.com/react-littera/-/react-littera-2.0.0-alpha.1.tgz#738cbeef8cf75c2a1e48a8a3cb5e443558595e73"
+  integrity sha512-6wJsE6uOX5iF3j6tTR3bd6IGLGyjNZhoPNHkef5zBAHn/tafwQgJPtwF5FM67iAeZP0gQ/Mym15/oETGo2sjSw==
 
 react-markdown@^4.3.1:
   version "4.3.1"
